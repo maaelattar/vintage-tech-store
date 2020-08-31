@@ -1,12 +1,14 @@
-import React from 'react';
-import loading from '../assets/loading.gif';
+import React from "react";
+import loading from "../assets/loading.svg";
 
 export default function Loading() {
-	return (
-		<div className='loading'>
-			<h2>
-				<img src={loading} alt='' />
-			</h2>
-		</div>
-	);
+  return (
+    <div className="flex items-center justify-center h-screen">
+        <img
+          className=""
+          src={loading}
+          alt=""
+        />
+    </div>
+  );
 }
