@@ -1,68 +1,80 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Retro Tech Store
 
-## Available Scripts
+An e-commerce website for selling age-old tech devices.
 
-In the project directory, you can run:
+**_Live Demo: [https://maa-retro-tech.netlify.app/](https://maa-retro-tech.netlify.app/)_**
 
-### `yarn start`
+**credintials for test**
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+email = foo@email.com
+password = foofoo
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Project Screen Shot(s)
 
-### `yarn test`
+- Home Page
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - ![ Home Page ](https://res.cloudinary.com/m-a-a/image/upload/v1598912571/Home_Page_pmhneo.png)
 
-### `yarn build`
+- About Page
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - ![ About Page ](https://res.cloudinary.com/m-a-a/image/upload/v1598912566/About_Page_jkyrme.png)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Products Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - ![ Products Page ](https://res.cloudinary.com/m-a-a/image/upload/v1598912572/Products_Page_rcwpfh.png)
 
-### `yarn eject`
+- Sign In and Register Page
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  - ![ Login Form ](https://res.cloudinary.com/m-a-a/image/upload/v1598912564/Sign_In_zdn7zm.png)
+  - ![ Register Form ](https://res.cloudinary.com/m-a-a/image/upload/v1598912561/Register_ni4yyp.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Cart Page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  - ![ Cart Page ](https://res.cloudinary.com/m-a-a/image/upload/v1598912565/Cart_Page_dqupnw.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Checkout Page
 
-## Learn More
+  - ![ Checkout Page ](https://res.cloudinary.com/m-a-a/image/upload/v1598912560/Checkout_Page_art0av.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation and Setup Instructions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
-### Code Splitting
+Installation:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+`npm install`
 
-### Analyzing the Bundle Size
+To Start Server:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+`npm start`
 
-### Making a Progressive Web App
+To Visit App:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+`localhost:3000`
 
-### Advanced Configuration
+## Reflection
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+This is not a fully featured website. It's a side project for the purpose of developing an e-commerce web application.
 
-### Deployment
+Right now admin can add products with its name, price, image and description
+and users can view products and filter them to find what best match their needs
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Users can add products to their shopping cart and checkout their order.
 
-### `yarn build` fails to minify
+I started this process by using the `create-react-app` boilerplate, then adding `react-router-5.2` and `tailwindcss`.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+I used strapi headless CMS for backend development.
+
+As this website is for development purposes only users can not add their address and they don't get actual products as they are not real.
+
+At the end of the day, the technologies implemented in this project are:
+
+- React
+- React-Router-Dom 5.2
+- TailwindCSS
+- Axios
+- react-icons
+- Stripe Payment Service
+- Strapi Headless CMS
